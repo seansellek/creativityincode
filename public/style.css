@@ -122,7 +122,7 @@ section.portfolio {
 .hover {
     position: absolute;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
 }
 .hover:hover, .project:hover a {
     opacity: 1;
@@ -139,21 +139,17 @@ section.portfolio {
     display: block;
     font-family: "adelle";
     color: #434343;
-    padding: 5px;
     border: none;
     position: absolute;
     bottom: 30%;
-    left: 25%;
-    width: 50%;
-    height: 15%;
+    left: 30%;
+    width: 40%;
     margin: 0 auto;
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 5;
-    font-size: 24px;
     text-decoration: none;
-    padding-top: 4%;
-    border-radius: 10px;
+
 }
 
 .project a:hover {
@@ -169,6 +165,20 @@ h3 {
     font-size: 0.9rem;
 }
 
-.project span {
-    font-size: 0.7rem;
+.btn {
+  background: #ffffff;
+  font-size: 0.6rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A81F26;
+  background-image: -webkit-linear-gradient(top, #A81F26, #8f1b25);
+  background-image: -moz-linear-gradient(top, #A81F26, #8f1b25);
+  background-image: -ms-linear-gradient(top, #A81F26, #8f1b25);
+  background-image: -o-linear-gradient(top, #A81F26, #8f1b25);
+  background-image: linear-gradient(to bottom, #A81F26, #8f1b25);
+  text-decoration: none;
+}
 }
