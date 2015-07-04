@@ -124,6 +124,51 @@ section.portfolio {
     opacity: 0;
     transition: opacity 0.5s;
 }
-.hover:hover {
+.hover:hover, .project:hover a {
     opacity: 1;
+}
+.project:hover a + .hover {
+    opacity: 1;
+}
+
+
+
+
+.project a {
+    background-color: white;
+    display: block;
+    font-family: "adelle";
+    color: #434343;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 5;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 4%;
+    border-radius: 10px;
+}
+
+.project a:hover {
+    background-color: #aa1e22;
+    color: white;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.project span {
+    font-size: 0.7rem;
 }
