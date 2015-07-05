@@ -53,6 +53,9 @@ h2 {
     padding: 85px 0 35px 0;
     text-transform: uppercase;
 }
+.portfolio h2 {
+    margin-top: 20px;
+}
 .lead {
     padding-top: 2rem;
 }
